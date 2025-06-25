@@ -25,7 +25,7 @@
     <img src="https://avatars.githubusercontent.com/u/95295440?s=200&v=4" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Demo Spring Boot</h3>
 
   <p align="center">
     project_description
