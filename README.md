@@ -222,7 +222,7 @@ Project Link: [https://github.com/knowmad-mood/demo-spring-boot](https://github.
 [license-shield]: https://img.shields.io/github/license/knowmad-mood/demo-spring-boot.svg?style=for-the-badge
 [license-url]: https://github.com/knowmad-mood/demo-spring-boot/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/company/knowmad-mood
 [product-screenshot]: https://avatars.githubusercontent.com/u/95295440?s=200&v=4
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
