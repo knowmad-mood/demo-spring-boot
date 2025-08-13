@@ -6,7 +6,46 @@ metadata:
   annotations:
     github.com/project-slug: knowmad-mood/demo-spring-boot
 spec:
-  type: backend
-  lifecycle: development
   owner: knowmad-mood
+  type: service
+  lifecycle: development
   system: default
+  parameters:
+    - title: Provide some simple information
+      required:
+        - component_id
+        - owner
+        - java_package_name
+      properties:
+        component_id:
+          title: Name
+          type: string
+          description: Unique name of the component
+          ui:field: EntityNamePicker
+        java_package_name:
+          title: Java Package Name
+          type: string
+          description: Name for the java package. eg (io.backstage.blah)
+        description:
+          title: Description
+          type: string
+          description: Help others understand what this website is for.
+        owner:
+          title: Owner
+          type: string
+          description: Owner of the component
+          ui:field: OwnerPicker
+          ui:options:
+            allowedKinds:
+              - Group
+    - title: Choose a location
+      required:
+        - repoUrl
+      properties:
+        repoUrl:
+          title: Repository Location
+          type: string
+          ui:field: RepoUrlPicker
+          ui:options:
+            allowedHosts:
+              - github.com
