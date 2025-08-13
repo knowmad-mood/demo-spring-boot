@@ -6,5 +6,5 @@ metadata:
     github.com/project-slug: knowmad-mood/demo-spring-boot
 spec:
   type: other
-  lifecycle: unknown
+  lifecycle: development
   owner: knowmad-mood
