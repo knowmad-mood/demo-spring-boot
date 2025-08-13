@@ -9,5 +9,5 @@ spec:
   owner: knowmad-mood
   type: service
   lifecycle: development
-  system: default
+  system: 
  
