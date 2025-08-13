@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-spring-boot
+  annotations:
+    github.com/project-slug: knowmad-mood/demo-spring-boot
+spec:
+  type: other
+  lifecycle: unknown
+  owner: knowmad-mood
