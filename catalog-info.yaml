@@ -2,9 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: demo-spring-boot
+  description: Java Spring Boot scaffolding to begin developing a new Java application using the Maven project management and software build tool.
   annotations:
     github.com/project-slug: knowmad-mood/demo-spring-boot
 spec:
-  type: other
+  type: backend
   lifecycle: development
   owner: knowmad-mood
+  system: scaffolding
