@@ -9,4 +9,4 @@ spec:
   type: backend
   lifecycle: development
   owner: knowmad-mood
-  system: scaffolding
+  system: default
